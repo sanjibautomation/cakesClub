@@ -18,7 +18,7 @@ public class CustomersPageTest extends TestBase{
 	DashBoardPage dashBoardPage;
 	ActCustSelection actCustSelection;
 	int custFunctionality=0;
-	
+    int checkCustomersClass=0;
 	public CustomersPageTest(){
 		super();
 	}
