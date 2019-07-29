@@ -24,7 +24,7 @@ public class BannersPageTest extends TestBase{
 	String sheetName = "Banners";
 	BannerSelection bannerSelection;
 	int bnrFunctionality=0;
-	int mani=1;
+	int mani=2;
 	
 	public BannersPageTest(){
 		super();
