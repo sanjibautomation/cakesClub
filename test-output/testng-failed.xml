@@ -3,12 +3,21 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
+<<<<<<< HEAD
       <class name="com.cakesclub.qa.testcases.BranchProductsPageTest">
         <methods>
           <include name="updateStockTest"/>
           <include name="Setup"/>
         </methods>
       </class> <!-- com.cakesclub.qa.testcases.BranchProductsPageTest -->
+=======
+      <class name="com.cakesclub.qa.testcases.CustomersPageTest">
+        <methods>
+          <include name="Setup"/>
+          <include name="actCustViewTest"/>
+        </methods>
+      </class> <!-- com.cakesclub.qa.testcases.CustomersPageTest -->
+>>>>>>> e5aeffe1f2e5e61c306399a8a2dcf92c593db33e
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

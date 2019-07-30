@@ -15,7 +15,11 @@ public class TestUtil {
 	public static long IMPLICIT_WAIT = 20;
 	public static String Error = "Error: The Actual Result does not match with Expected Result";
 	
+<<<<<<< HEAD
 	public static String TESTDATA_SHEET_PATH = "C:/Users/Sanjib-pc/git/cakesClub/cakesClub/src/main/java/qa/cakesclub/qa/testdata/CakesClubTestData.xls";
+=======
+	public static String TESTDATA_SHEET_PATH = "C:/workspace_sanjib/cakesClub/src/main/java/qa/cakesclub/qa/testdata/CakesClubTestData.xls";
+>>>>>>> e5aeffe1f2e5e61c306399a8a2dcf92c593db33e
 	static Workbook book;
 	static Sheet sheet;
 

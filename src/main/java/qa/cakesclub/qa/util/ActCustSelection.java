@@ -6,7 +6,10 @@ import org.testng.Assert;
 
 public class ActCustSelection {
 	public void SelectCustomer(WebDriver driver, String custMobile, int custFunctionality){		
+<<<<<<< HEAD
 		// Clicking on Account Users Tab
+=======
+>>>>>>> e5aeffe1f2e5e61c306399a8a2dcf92c593db33e
 		driver.findElement(By.xpath("//a[text()='Account Users']")).click();
 		int row_Count = driver.findElements(By.xpath("//table[@id='example1']/tbody/tr")).size();		
 		int page_count = driver.findElements(By.xpath("//div[@id='example1_paginate']/ul/li")).size();

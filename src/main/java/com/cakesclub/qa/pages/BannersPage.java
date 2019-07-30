@@ -78,7 +78,10 @@ public class BannersPage extends TestBase{
 	}
 	public BannersPage deleteBanners(){
 		driver.switchTo().alert().accept();
+<<<<<<< HEAD
 		
+=======
+>>>>>>> e5aeffe1f2e5e61c306399a8a2dcf92c593db33e
 		return new BannersPage();
 	}
 	public BannersPage viewBanners() throws InterruptedException{

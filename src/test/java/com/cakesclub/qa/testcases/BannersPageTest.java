@@ -24,9 +24,13 @@ public class BannersPageTest extends TestBase{
 	String sheetName = "Banners";
 	BannerSelection bannerSelection;
 	int bnrFunctionality=0;
+
 	int x=2;
 	
 	
+
+	int mani=2;
+
 	
 	public BannersPageTest(){
 		super();
@@ -66,7 +70,12 @@ public class BannersPageTest extends TestBase{
 			for(int j=1;j<=row_Count;j++){
 				String actBannerName = driver.findElement(By.xpath("//tbody/tr["+j+"]/td[1]")).getText();				
 				if(actBannerName.equals(bnrName)){
+
 					bannerFound =1;										
+
+					bannerFound =1;
+					System.out.println("Banner added Successfully.");					
+
 					break outerloop;
 				}
 			}
@@ -81,6 +90,7 @@ public class BannersPageTest extends TestBase{
 		bnrFunctionality = 1;
 		bannerSelection.selectBanner(driver, prop.getProperty("selectBnrName"), bnrFunctionality);
 		bannerspage.activeBanner();
+
 //		String statusMsg = driver.findElement(By.xpath("//div[@class='alert-messages']/div")).getText();
 //		if(statusMsg.contains("Success! Status Changed successfully.")){
 //			System.out.println("Status Changed successfully.");
@@ -89,6 +99,16 @@ public class BannersPageTest extends TestBase{
 //		{
 //			System.out.println("ERROR: Status not Changed successfully.");
 //		}
+
+		String statusMsg = driver.findElement(By.xpath("//div[@class='alert-messages']/div")).getText();
+		if(statusMsg.contains("Success! Status Changed successfully.")){
+			System.out.println("Status Changed successfully.");
+		}
+		else
+		{
+			System.out.println("ERROR: Status not Changed successfully.");
+		}
+
 		
 	}
 	@Test
@@ -129,7 +149,11 @@ public class BannersPageTest extends TestBase{
 	@Test
 	public void viewBannerTest() throws InterruptedException{
 		bnrFunctionality=4;
+
 		bannerSelection.selectBanner(driver, prop.getProperty("selectBnrName"),bnrFunctionality);
+
+		bannerSelection.selectBanner(driver, prop.getProperty("selectBnrName"), bnrFunctionality);
+
 		bannerspage.viewBanners();
 	}
 	@Test

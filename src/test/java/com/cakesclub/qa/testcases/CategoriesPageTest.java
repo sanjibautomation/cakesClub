@@ -30,7 +30,10 @@ public class CategoriesPageTest extends TestBase{
 	String sheetName2 = "SubCategory";
 	SubCategorySelection subCategorySelection;
 	
+<<<<<<< HEAD
 	
+=======
+>>>>>>> e5aeffe1f2e5e61c306399a8a2dcf92c593db33e
 	public CategoriesPageTest(){
 		super();
 	}

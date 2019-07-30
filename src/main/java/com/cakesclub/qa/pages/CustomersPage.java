@@ -7,7 +7,10 @@ import org.openqa.selenium.support.PageFactory;
 import com.cakesclub.qa.base.TestBase;
 
 public class CustomersPage extends TestBase{
+<<<<<<< HEAD
 	// Customer Page Factory
+=======
+>>>>>>> e5aeffe1f2e5e61c306399a8a2dcf92c593db33e
 	@FindBy(xpath="//a[text()='Account Users']")
 	public WebElement activeUserTab;
 	@FindBy(xpath="//div[@id='customers-body']/div/div/h6")
@@ -16,6 +19,7 @@ public class CustomersPage extends TestBase{
 	WebElement BackBtn;
 	@FindBy(xpath="//div[@id='example1_filter']//following::input")
 	WebElement accUserSearch;
+<<<<<<< HEAD
 	// Guest User Page Factory
 	@FindBy(xpath="//h6[contains(text(),'Guest users')]")
 	WebElement GuestUserPageName;
@@ -24,6 +28,8 @@ public class CustomersPage extends TestBase{
 	@FindBy(xpath="//div[@id='example_filter']//following::input")
 	WebElement guestUserSeacrh;
 	
+=======
+>>>>>>> e5aeffe1f2e5e61c306399a8a2dcf92c593db33e
 	
 	public CustomersPage(){
 		PageFactory.initElements(driver, this);
@@ -45,6 +51,7 @@ public class CustomersPage extends TestBase{
 		activeUserTab.click();
 		accUserSearch.sendKeys(prop.getProperty("ReqAccUserSrchValue"));
 	}
+<<<<<<< HEAD
 	public String validateGuestUserPageTest(){
 		return GuestUserPageName.getText();
 	}
@@ -59,5 +66,7 @@ public class CustomersPage extends TestBase{
 	public void guestUserSearchTest(){
 		guestUserSeacrh.sendKeys(prop.getProperty("ReqGuestUserMobile"));
 	}
+=======
+>>>>>>> e5aeffe1f2e5e61c306399a8a2dcf92c593db33e
 
 }

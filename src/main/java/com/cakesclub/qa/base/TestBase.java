@@ -21,7 +21,11 @@ public class TestBase {
 	
 	try{
 		prop = new Properties();
+<<<<<<< HEAD
 		FileInputStream ip = new FileInputStream("C:/Users/Sanjib-pc/git/cakesClub/cakesClub/src/main/java/com/cakesclub/qa/config/config.properties");
+=======
+		FileInputStream ip = new FileInputStream("C:/workspace_sanjib/cakesClub/src/main/java/com/cakesclub/qa/config/config.properties");
+>>>>>>> e5aeffe1f2e5e61c306399a8a2dcf92c593db33e
 		prop.load(ip);			
 	}
 	catch(FileNotFoundException e){
