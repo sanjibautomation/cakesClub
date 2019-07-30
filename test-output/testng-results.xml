@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="6" total="7" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="12846" started-at="2019-07-29T10:23:55Z" finished-at="2019-07-29T10:24:08Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="12846" started-at="2019-07-29T10:23:55Z" finished-at="2019-07-29T10:24:08Z">
+      <class name="com.cakesclub.qa.testcases.CategoriesPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.cakesclub.qa.testcases.CategoriesPageTest@59f99ea]" name="setUp" is-config="true" duration-ms="12723" started-at="2019-07-29T10:23:55Z" finished-at="2019-07-29T10:24:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateCatPageNameTest()[pri:0, instance:com.cakesclub.qa.testcases.CategoriesPageTest@59f99ea]" name="validateCatPageNameTest" duration-ms="80" started-at="2019-07-29T10:24:08Z" finished-at="2019-07-29T10:24:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCatPageNameTest -->
+      </class> <!-- com.cakesclub.qa.testcases.CategoriesPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
